@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html style="height: 100%">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+				<title>北京奇技课堂</title>
+		<meta name="keywords" content="奇技课堂，奇技测试，北京测试培训" />
+    		<meta name="description" content="奇技课程，打造国内测试线下培训领军者" />
+		
+		<link href="/favicon.ico" type="image/x-icon" rel=icon>
+		<link href="/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="layui/css/layui.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/header-swiper.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/aos.css" />
+	</head>
+	<body style="background-color:#f2f2f2;height: 100%;">
+		<div class="header">
+			<ul class="layui-nav layui-bg-red layui-bg-blue">
+				<li class="layui-nav-item">
+					<img src="img/logo.png" style="width: 50px; height: 50px;background: white; border-radius: 25px;"/>
+				</li>
+				<li class="layui-nav-item">
+					<a href="index.html">首页</a>
+				</li>
+				<li class="layui-nav-item">
+					<a href="teachers.html">讲师团队</a>
+				</li>
+				<li class="layui-nav-item layui-this">
+					<a href="chat.html">预约试听</a>
+				</li>
+				<li class="layui-nav-item">
+					<a href="apply.html">报名占座</a>
+				</li>
+			</ul>
+		</div>
+
+        <div class="main" style="height: 100%;">
+            <iframe style="height: 100%;width: 100%;" src="https://12463.ahc.ink/chat.html"></iframe>
+		</div>
+		
+
+		
+		<script type="text/javascript" src="js/uuid.js" charset="utf-8"></script>
+		<script type="text/javascript" src="dist/layui.js"></script>
+		<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+		<script type="text/javascript" src="js/swiper.jquery.min.js"></script>
+		<script type="text/javascript" src="js/aos.js"></script>
+		
+		<script>
+			layui.use(['carousel', 'flow', 'util', 'layer', 'element', 'layim'], function() {
+				var carousel = layui.carousel;
+				var flow = layui.flow;
+				var util = layui.util;
+				var element = layui.element;
+				var $ = layui.jquery;
+				var layim = layui.layim;
+	
+				flow.lazyimg({
+					elem: "body img"
+				});
+			});
+		</script>
+	</body>
+</html>
